@@ -34,3 +34,7 @@ Set up a new workflow that triggers the "Run Script" action, and choose
 Note that you should enable "Trigger behavior > Pass through modifier keys (fastest)" or else the commands will take about 200ms to complete and a rotary knob won't feel "realtime".
 
 <img width="827" alt="CleanShot 2022-10-31 at 23 39 47@2x" src="https://user-images.githubusercontent.com/353790/199153566-37a2ff90-04d2-4f47-873f-cdd88da60bc2.png">
+
+## Known Issues
+
+If you have a rotary knob and you go wild twisting back and forth, the lights may take a second to catch up. Each Elgato light runs its own HTTP server, so you're essentially performing a DoS attack on it. :wink:

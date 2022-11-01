@@ -36,6 +36,7 @@ ON=1
 LIGHT_IP=${LIGHT_IPS[0]}
 
 # Read the last set brightness.
+touch "$SCRIPT_DIR"/brightness.txt
 BRIGHTNESS=$(<"$SCRIPT_DIR"/brightness.txt)
 
 # Constrain the brightness to the range 0–100.
