@@ -24,7 +24,7 @@ At the top of `control.sh` you will see a bunch of variables you can configure. 
 
 You can find this by looking at the settings for your light in the Elgato Control Center app.
 
-Multiple lights can be configured. They will be controlled in tandem, but the light strips can also have a hardcoded brightness, or a brightness that is a percentage of the main brightness. You may want your light strips to max out when your main lights are at a pretty low brightness, but be able to control them at low brightness.
+Multiple lights can be configured. They will be controlled in tandem, but the light strips can also have a hardcoded brightness, or a brightness that is a percentage of the main brightness. You may want your light strips to max out when your main lights are at medium brightness, but have them start to dim when your main lights reach low brightness.
 
 ## Alfred Configuration
 
