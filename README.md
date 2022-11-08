@@ -20,7 +20,7 @@ I think just Bash and cURL.
 
 ## Configuration
 
-At the top of `control.sh` you will see a bunch of variables you can configure. The one thing you will have to change is the IP address of your lights.
+At the top of `control.sh` you will see a bunch of variables you can configure. Create `~/.bashgato.sh` to provide your config. The one thing you will definitely have to change is the IP address of your lights.
 
 You can find this by looking at the settings for your light in the Elgato Control Center app.
 
