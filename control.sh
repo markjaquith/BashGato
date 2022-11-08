@@ -24,6 +24,13 @@ STRIP_HUE=39
 STRIP_SATURATION=15
 #STRIP_BRIGHTNESS=100 # Hardcode the brightness... OR:
 STRIP_PERCENTAGE_OF_LIGHT=800 # Set it to a percentage of the main light.
+
+# Override the default light and strip values with a custom config file.
+# =====================
+CONFIG_PATH="$HOME/.bashgato.sh"
+if [ -f $CONFIG_PATH ]; then
+	source $CONFIG_PATH
+fi
 ###############################################################################
 
 # Get the current script dir.
