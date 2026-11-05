@@ -98,7 +98,6 @@ fi
 # Constrain the strip brightness to the range 0–100.
 STRIP_BRIGHTNESS=$(( STRIP_BRIGHTNESS < STRIP_MIN ? STRIP_MIN : STRIP_BRIGHTNESS ))
 STRIP_BRIGHTNESS=$(( STRIP_BRIGHTNESS > STRIP_MAX ? STRIP_MAX : STRIP_BRIGHTNESS ))
-STRIP_BRIGHTNESS = echo $STRIP_BRIGHTNESS | awk '{print int($1+0.5)}'
 
 # Update the brightness value on disk. We cache it locally so we don't have to wait for the server response when we increment or decrement.
 echo $BRIGHTNESS > "$SCRIPT_DIR"/brightness.txt
